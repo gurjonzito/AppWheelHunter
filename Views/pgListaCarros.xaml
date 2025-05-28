@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWheelHunter.Views.pgListaCarros"
+             Title="pgListaCarros">
+    <Grid RowDefinitions="Auto,*" Padding="10">
+        <!-- Filtros -->
+        <Frame Grid.Row="0" Padding="15" CornerRadius="12" 
+               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
+               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
+               HasShadow="True">
+            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
+                <!-- Campo de busca -->
+                <SearchBar Grid.Column="0"
+                          Placeholder="Buscar por modelo..."
+                          Text="{Binding SearchText}"
+                          BackgroundColor="Transparent"
+                          CancelButtonColor="{AppThemeBinding Light=#3182CE, Dark=#63B3ED}"/>
+
+                <!-- Picker para filtro de status -->
+                <Picker Grid.Column="1"
+                        Title="Filtrar"
+                        ItemsSource="{Binding StatusOptions}"
+                        ItemDisplayBinding="{Binding Display}"
+                        SelectedItem="{Binding SelectedStatus}"
+                        WidthRequest="150"
+                        TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
+                        TitleColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}">
+                    <Picker.Items>
+                        <x:String>Obtido</x:String>
+                        <x:String>Desejado</x:String>
+                    </Picker.Items>
+                </Picker>
+            </Grid>
+        </Frame>
+
+        <!-- Lista de Carros - Estilo igual aos cards -->
+        <ListView x:Name="lsvLista" Grid.Row="1" ItemsSource="{Binding Carros}"
+                  SelectionMode="None"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="None"
+                  Margin="0,15,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame Padding="0" 
+                               CornerRadius="12"
+                               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
+                               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
+                               HasShadow="True"
+                               Margin="0,0,0,15">
+                            <Grid ColumnDefinitions="120,*,Auto" RowDefinitions="Auto,Auto,Auto" 
+                                  ColumnSpacing="15" RowSpacing="8"
+                                  Padding="0">
+                                <!-- Imagem do carro -->
+                                <Grid Grid.Column="0" Grid.RowSpan="3"
+                                      BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}">
+                                    <Image Source="{Binding DirImagem}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="120"/>
+                                </Grid>
+
+                                <!-- Modelo -->
+                                <Label Grid.Column="1" Grid.Row="0"
+                                       Text="{Binding Modelo}"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
+                                       Margin="0,15,0,0"/>
+
+                                <!-- Lote e Ano -->
+                                <HorizontalStackLayout Grid.Column="1" Grid.Row="1" Spacing="10">
+                                    <Label Text="{Binding Lote}"
+                                           FontSize="14"
+                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                    <Label Text="•"
+                                           FontSize="14"
+                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                    <Label Text="{Binding Ano}"
+                                           FontSize="14"
+                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                </HorizontalStackLayout>
+
+                                <!-- Status -->
+                                <HorizontalStackLayout Grid.Column="1" Grid.Row="2" Spacing="10" Margin="0,0,0,15">
+                                    <Frame BackgroundColor="{Binding Obtido}"
+                                           CornerRadius="4"
+                                           Padding="6,2"
+                                           VerticalOptions="Center">
+                                        <Label Text="OBTIDO"
+                                               FontSize="12"
+                                               FontAttributes="Bold"
+                                               TextColor="White"/>
+                                    </Frame>
+                                    <Frame BackgroundColor="{Binding Desejado}"
+                                           CornerRadius="4"
+                                           Padding="6,2"
+                                           VerticalOptions="Center">
+                                        <Label Text="DESEJADO"
+                                               FontSize="12"
+                                               FontAttributes="Bold"
+                                               TextColor="White"/>
+                                    </Frame>
+                                </HorizontalStackLayout>
+
+                                <!-- Ícones de Ação -->
+                                <StackLayout Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"
+                                             Orientation="Vertical" Spacing="15"
+                                             VerticalOptions="Center"
+                                             Padding="0,0,15,0">
+                                    <!-- Ícone Obtido -->
+                                    <Image Source="{Binding Obtido}"
+                                           HeightRequest="28"
+                                           WidthRequest="28">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                CommandParameter="{Binding .}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+
+                                    <!-- Ícone Desejado -->
+                                    <Image Source="{Binding Desejado}"
+                                           HeightRequest="28"
+                                           WidthRequest="28">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                CommandParameter="{Binding .}"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

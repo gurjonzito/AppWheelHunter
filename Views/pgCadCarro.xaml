@@ -93,6 +93,17 @@
                     MaxLength="4"
                     Style="{StaticResource CamposText}" />
 
+                <Label FontSize="16" Text="Status:" TextColor="#000000"/>
+                <RadioButton x:Name="radObtido" 
+                     TextColor="#000000"
+                     Content="Obtido" 
+                     GroupName="StatusCarro" 
+                     IsChecked="False" />
+                <RadioButton x:Name="radDesejado" 
+                     TextColor="#000000"
+                     Content="Desejado" 
+                     GroupName="StatusCarro" 
+                     IsChecked="False" />
                 <Button
                     Margin="0,20"
                     Clicked="btnSalvar_Clicked"

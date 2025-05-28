@@ -10,13 +10,14 @@ namespace AppWheelHunter
             InitializeComponent();
         }
 
-        private void btnCadastrar_Clicked(object sender, EventArgs e)
+        private async void btnCadastrar_Clicked(object sender, EventArgs e)
         {
-            Application.Current.MainPage.Navigation.PushAsync(new pgCadCarro());
+            await Navigation.PushAsync(new pgCadCarro());
         }
 
-        private void btnListar_Clicked(object sender, EventArgs e)
+        private async void btnListar_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new pgListaCarros());
 
         }
     }
