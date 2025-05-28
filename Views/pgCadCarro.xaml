@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppWheelHunter.Views.pgCadCarro"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="pgCadCarro"
+    BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Grid HorizontalOptions="Center">
+                <Frame
+                    Padding="0"
+                    BackgroundColor="LightGray"
+                    CornerRadius="75"
+                    HeightRequest="150"
+                    WidthRequest="150">
+                    <Image
+                        x:Name="imgCarro"
+                        Aspect="AspectFill"
+                        HeightRequest="145"
+                        WidthRequest="145" />
+                </Frame>
+
+                <Frame
+                    Padding="0"
+                    BackgroundColor="#80A92727"
+                    CornerRadius="75"
+                    HeightRequest="150"
+                    IsVisible="{Binding Source={x:Reference imgPerfil}, Path=Source, Converter={StaticResource NullToVisibilityConverter}}"
+                    WidthRequest="150">
+                    <VerticalStackLayout HorizontalOptions="Center" Spacing="10" VerticalOptions="Center">
+
+                        <Button
+                            x:Name="btnSelecionar"
+                            BackgroundColor="#A92727"
+                            Clicked="btnSelecionar_Clicked"
+                            CornerRadius="20"
+                            HeightRequest="40"
+                            Text="Selecionar"
+                            TextColor="White"
+                            WidthRequest="120" />
+
+                        <Button
+                            x:Name="btnRemover"
+                            BackgroundColor="White"
+                            Clicked="btnRemover_Clicked"
+                            CornerRadius="20"
+                            HeightRequest="40"
+                            IsVisible="False"
+                            Text="Remover"
+                            TextColor="#A92727"
+                            WidthRequest="120" />
+                    </VerticalStackLayout>
+                </Frame>
+            </Grid>
+
+            <VerticalStackLayout Padding="0,10" Spacing="12">
+                <Label FontSize="16" Text="Modelo:" TextColor="#000000" />
+                <Entry x:Name="txtModelo" ClearButtonVisibility="WhileEditing" Style="{StaticResource CamposText}" />
+
+                <Label FontSize="16" Text="Lote:" TextColor="#000000" />
+                <Picker
+                    x:Name="pckrLote"
+                    BackgroundColor="#DEE7E7"
+                    HeightRequest="50"
+                    TextColor="Black">
+                    <Picker.Items>
+                        <x:String>A</x:String>
+                        <x:String>B</x:String>
+                        <x:String>C</x:String>
+                        <x:String>D</x:String>
+                        <x:String>E</x:String>
+                        <x:String>F</x:String>
+                        <x:String>G</x:String>
+                        <x:String>H</x:String>
+                        <x:String>J</x:String>
+                        <x:String>K</x:String>
+                        <x:String>L</x:String>
+                        <x:String>M</x:String>
+                        <x:String>N</x:String>
+                        <x:String>P</x:String>
+                        <x:String>Q</x:String>
+                    </Picker.Items>
+                </Picker>
+
+                <Label FontSize="16" Text="Ano:" TextColor="#000000" />
+                <Entry
+                    x:Name="txtAno"
+                    ClearButtonVisibility="WhileEditing"
+                    Keyboard="Numeric"
+                    MaxLength="4"
+                    Style="{StaticResource CamposText}" />
+
+                <Button
+                    Margin="0,20"
+                    Clicked="btnSalvar_Clicked"
+                    Style="{StaticResource PrimaryButton}"
+                    Text="Salvar" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
