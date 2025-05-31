@@ -12,5 +12,8 @@ namespace AppWheelHunter.Models
         public int Ano { get; set; }
         public bool Obtido { get; set; }
         public bool Desejado { get; set; }
+        public string ImagemObtido => Obtido ? "obtido_on.png" : "obtido_off.png";
+        public string ImagemDesejado => Desejado ? "desejado_on.png" : "desejado_off.png";
+        public string ImagemExcluir { get; set; }
     }
 }

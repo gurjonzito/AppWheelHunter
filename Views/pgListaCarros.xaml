@@ -1,32 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppWheelHunter.Views.pgListaCarros"
-             Title="pgListaCarros">
-    <Grid RowDefinitions="Auto,*" Padding="10">
-        <!-- Filtros -->
-        <Frame Grid.Row="0" Padding="15" CornerRadius="12" 
-               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-               HasShadow="True">
-            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
-                <!-- Campo de busca -->
-                <SearchBar Grid.Column="0"
-                          Placeholder="Buscar por modelo..."
-                          Text="{Binding SearchText}"
-                          BackgroundColor="Transparent"
-                          CancelButtonColor="{AppThemeBinding Light=#3182CE, Dark=#63B3ED}"/>
+<ContentPage
+    x:Class="AppWheelHunter.Views.pgListaCarros"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="pgListaCarros"
+    BackgroundColor="{DynamicResource BackgroundColor}">
 
-                <!-- Picker para filtro de status -->
-                <Picker Grid.Column="1"
-                        Title="Filtrar"
-                        ItemsSource="{Binding StatusOptions}"
-                        ItemDisplayBinding="{Binding Display}"
-                        SelectedItem="{Binding SelectedStatus}"
-                        WidthRequest="150"
-                        TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
-                        TitleColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}">
+    <Grid Padding="10" RowDefinitions="Auto,*">
+        <!--  Filtros  -->
+        <Frame
+            Grid.Row="0"
+            Padding="15"
+            BackgroundColor="{DynamicResource FrameColor}"
+            CornerRadius="12"
+            HasShadow="True">
+            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="10">
+                <!--  Campo de busca  -->
+                <SearchBar
+                    x:Name="searchBar"
+                    Grid.Column="0"
+                    BackgroundColor="Transparent"
+                    CancelButtonColor="{AppThemeBinding Light=#3182CE,
+                                                        Dark=#63B3ED}"
+                    Placeholder="Buscar por modelo..."
+                    Text="{Binding SearchText}"
+                    TextChanged="SearchBar_TextChanged" />
+
+                <!--  Picker para filtro de status  -->
+                <Picker
+                    x:Name="picker"
+                    Title="Filtrar"
+                    Grid.Column="1"
+                    ItemDisplayBinding="{Binding Display}"
+                    ItemsSource="{Binding StatusOptions}"
+                    SelectedIndex="0"
+                    SelectedIndexChanged="Picker_SelectedIndexChanged"
+                    SelectedItem="{Binding SelectedStatus}"
+                    TextColor="{DynamicResource PrimaryTextColor}"
+                    TitleColor="{AppThemeBinding Light=#718096,
+                                                 Dark=#A0AEC0}"
+                    WidthRequest="150">
                     <Picker.Items>
+                        <x:String>Todos</x:String>
                         <x:String>Obtido</x:String>
                         <x:String>Desejado</x:String>
                     </Picker.Items>
@@ -34,97 +49,108 @@
             </Grid>
         </Frame>
 
-        <!-- Lista de Carros - Estilo igual aos cards -->
-        <ListView x:Name="lsvLista" Grid.Row="1" ItemsSource="{Binding Carros}"
-                  SelectionMode="None"
-                  HasUnevenRows="True"
-                  SeparatorVisibility="None"
-                  Margin="0,15,0,0">
+        <!--  Lista de Carros - Estilo igual aos cards  -->
+        <ListView
+            x:Name="lsvLista"
+            Grid.Row="1"
+            Margin="0,15,0,0"
+            HasUnevenRows="True"
+            ItemsSource="{Binding Carros}"
+            SelectionMode="None"
+            SeparatorVisibility="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Frame Padding="0" 
-                               CornerRadius="12"
-                               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-                               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-                               HasShadow="True"
-                               Margin="0,0,0,15">
-                            <Grid ColumnDefinitions="120,*,Auto" RowDefinitions="Auto,Auto,Auto" 
-                                  ColumnSpacing="15" RowSpacing="8"
-                                  Padding="0">
-                                <!-- Imagem do carro -->
-                                <Grid Grid.Column="0" Grid.RowSpan="3"
-                                      BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}">
-                                    <Image Source="{Binding DirImagem}"
-                                           Aspect="AspectFill"
-                                           HeightRequest="120"/>
+                        <Frame
+                            Margin="0,0,0,15"
+                            Padding="0"
+                            BackgroundColor="{DynamicResource FrameColor}"
+                            CornerRadius="12"
+                            HasShadow="True">
+                            <Grid
+                                Padding="0"
+                                ColumnDefinitions="120,*,Auto"
+                                ColumnSpacing="15"
+                                RowDefinitions="Auto,Auto,Auto"
+                                RowSpacing="8">
+                                <!--  Imagem do carro  -->
+                                <Grid Grid.RowSpan="3" Grid.Column="0" BackgroundColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}">
+                                    <Image Aspect="AspectFill" HeightRequest="120" Source="{Binding DirImagem}" />
                                 </Grid>
 
-                                <!-- Modelo -->
-                                <Label Grid.Column="1" Grid.Row="0"
-                                       Text="{Binding Modelo}"
-                                       FontSize="18"
-                                       FontAttributes="Bold"
-                                       TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
-                                       Margin="0,15,0,0"/>
+                                <!--  Modelo  -->
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    Margin="0,15,0,0"
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="{Binding Modelo}"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <!-- Lote e Ano -->
-                                <HorizontalStackLayout Grid.Column="1" Grid.Row="1" Spacing="10">
-                                    <Label Text="{Binding Lote}"
-                                           FontSize="14"
-                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
-                                    <Label Text="•"
-                                           FontSize="14"
-                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
-                                    <Label Text="{Binding Ano}"
-                                           FontSize="14"
-                                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                <!--  Lote e Ano  -->
+                                <HorizontalStackLayout Grid.Row="1" Grid.Column="1" Spacing="10">
+                                    <Label FontSize="14" Text="{Binding Lote}" TextColor="{DynamicResource PrimaryTextColor}" />
+                                    <Label FontSize="14" Text="•" TextColor="{DynamicResource PrimaryTextColor}" />
+                                    <Label FontSize="14" Text="{Binding Ano}" TextColor="{DynamicResource PrimaryTextColor}" />
                                 </HorizontalStackLayout>
 
-                                <!-- Status -->
-                                <HorizontalStackLayout Grid.Column="1" Grid.Row="2" Spacing="10" Margin="0,0,0,15">
-                                    <Frame BackgroundColor="{Binding Obtido}"
-                                           CornerRadius="4"
-                                           Padding="6,2"
-                                           VerticalOptions="Center">
-                                        <Label Text="OBTIDO"
-                                               FontSize="12"
-                                               FontAttributes="Bold"
-                                               TextColor="White"/>
+                                <!--  Status  -->
+                                <HorizontalStackLayout
+                                    Grid.Row="2"
+                                    Grid.Column="1"
+                                    Margin="0,0,0,15"
+                                    Spacing="10">
+                                    <Frame
+                                        Padding="6,2"
+                                        CornerRadius="4"
+                                        IsVisible="{Binding Obtido}"
+                                        VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="12"
+                                            Text="OBTIDO"
+                                            TextColor="{DynamicResource PrimaryTextColor}" />
                                     </Frame>
-                                    <Frame BackgroundColor="{Binding Desejado}"
-                                           CornerRadius="4"
-                                           Padding="6,2"
-                                           VerticalOptions="Center">
-                                        <Label Text="DESEJADO"
-                                               FontSize="12"
-                                               FontAttributes="Bold"
-                                               TextColor="White"/>
+                                    <Frame
+                                        Padding="6,2"
+                                        CornerRadius="4"
+                                        IsVisible="{Binding Desejado}"
+                                        VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="12"
+                                            Text="DESEJADO"
+                                            TextColor="{DynamicResource PrimaryTextColor}" />
                                     </Frame>
                                 </HorizontalStackLayout>
 
-                                <!-- Ícones de Ação -->
-                                <StackLayout Grid.Column="2" Grid.Row="0" Grid.RowSpan="3"
-                                             Orientation="Vertical" Spacing="15"
-                                             VerticalOptions="Center"
-                                             Padding="0,0,15,0">
-                                    <!-- Ícone Obtido -->
-                                    <Image Source="{Binding Obtido}"
-                                           HeightRequest="28"
-                                           WidthRequest="28">
+                                <!--  Ícones de Ação  -->
+                                <StackLayout
+                                    Grid.Row="0"
+                                    Grid.RowSpan="3"
+                                    Grid.Column="2"
+                                    Padding="0,0,15,0"
+                                    Orientation="Vertical"
+                                    Spacing="15"
+                                    VerticalOptions="Center">
+                                    <!--  Ícone Obtido  -->
+                                    <Image HeightRequest="28" Source="{Binding ImagemObtido}" WidthRequest="28">
                                         <Image.GestureRecognizers>
-                                            <TapGestureRecognizer 
-                                                CommandParameter="{Binding .}"/>
+                                            <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="OnObtidoTapped" />
                                         </Image.GestureRecognizers>
                                     </Image>
 
-                                    <!-- Ícone Desejado -->
-                                    <Image Source="{Binding Desejado}"
-                                           HeightRequest="28"
-                                           WidthRequest="28">
+                                    <!--  Ícone Desejado  -->
+                                    <Image HeightRequest="28" Source="{Binding ImagemDesejado}" WidthRequest="28">
                                         <Image.GestureRecognizers>
-                                            <TapGestureRecognizer 
-                                                CommandParameter="{Binding .}"/>
+                                            <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="OnDesejadoTapped" />
+                                        </Image.GestureRecognizers>
+                                    </Image>
+
+                                    <Image HeightRequest="28" Source="excluir_icon.png" WidthRequest="28">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="OnExcluidoTapped" />
                                         </Image.GestureRecognizers>
                                     </Image>
                                 </StackLayout>

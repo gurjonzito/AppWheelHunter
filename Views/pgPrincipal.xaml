@@ -1,188 +1,168 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppWheelHunter.Views.pgPrincipal"
-             Title="pgPrincipal">
+<ContentPage
+    x:Class="AppWheelHunter.Views.pgPrincipal"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="pgPrincipal"
+    BackgroundColor="{DynamicResource BackgroundColor}">
+
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="30">
 
-            <Label Text="Notícias em Destaque"
-       FontSize="24"
-       FontAttributes="Bold"
-       TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
-       HorizontalOptions="Center"/>
+            <Label
+                FontAttributes="Bold"
+                FontSize="24"
+                HorizontalOptions="Center"
+                Text="Notícias em Destaque"
+                TextColor="{DynamicResource PrimaryTextColor}" />
 
-            <ScrollView Orientation="Horizontal" HorizontalOptions="Center">
-                <HorizontalStackLayout Spacing="20" Padding="0,0,0,10">
+            <ScrollView HorizontalOptions="Center" Orientation="Horizontal">
+                <HorizontalStackLayout Padding="0,0,0,10" Spacing="20">
 
-                    <Frame WidthRequest="280"
-               CornerRadius="12"
-               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-               HasShadow="True"
-               Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                      Margin="-12,-12,-12,0"
-                      HeightRequest="210">
-                                <Image Source="noticia_carros.jpg"
-                           HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="millenium.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="10">
-                                <Label Text="AUTOMOTIVO"
-                           TextColor="#38A169"
-                           FontSize="14"
-                           FontAttributes="Bold"
-                           CharacterSpacing="1.1"
-                           Margin="0,0,0,-4"/>
+                                <Label
+                                    Margin="0,0,0,-4"
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="LICENCIADOS"
+                                    TextColor="#E31937" />
 
-                                <Label Text="Novo modelo elétrico bate recordes"
-                           FontSize="18"
-                           FontAttributes="Bold"
-                           TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="Hot Wheels x Star Wars: Coleção Starships"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Mais de 10.000 unidades vendidas no primeiro mês no mercado nacional."
-                           FontSize="14"
-                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                           LineBreakMode="WordWrap"
-                           MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="Naves de Star Wars transformadas em carros Hot Wheels, incluindo o Millennium Falcon e o X-Wing."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
 
                                 <HorizontalStackLayout Spacing="12" VerticalOptions="Center">
-                                    <Frame WidthRequest="36" 
-                               HeightRequest="36"
-                               CornerRadius="18"
-                               Padding="0"
-                               IsClippedToBounds="True">
-                                        <Image Source="autor_jornalismo.jpg"/>
-                                    </Frame>
 
                                     <VerticalStackLayout Spacing="2">
-                                        <Label Text="Carlos Motta"
-                                   FontSize="13"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="13"
+                                            Text="Star Wars + Mattel"
+                                            TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                        <Label Text="15 Jun, 2023 · 5min"
-                                   FontSize="11"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                        <Label FontSize="11" Text="15 Mai, 2024" TextColor="{DynamicResource SecondaryTextColor}" />
                                     </VerticalStackLayout>
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>
 
-                    <Frame WidthRequest="280"
-               CornerRadius="12"
-               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-               HasShadow="True"
-               Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                      Margin="-12,-12,-12,0"
-                      HeightRequest="210">
-                                <Image Source="noticia2.jpg"
-                           HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="porsche.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="10">
-                                <Label Text="TECNOLOGIA"
-                           TextColor="#805AD5"
-                           FontSize="14"
-                           FontAttributes="Bold"
-                           CharacterSpacing="1.1"
-                           Margin="0,0,0,-4"/>
+                                <Label
+                                    Margin="0,0,0,-4"
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="COLECIONÁVEIS"
+                                    TextColor="#E31937" />
 
-                                <Label Text="Nova IA revoluciona segurança veicular"
-                           FontSize="18"
-                           FontAttributes="Bold"
-                           TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="Série Dream Garage com 5 Carros Premium"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Startup lança sistema de prevenção de acidentes com aprendizado contínuo."
-                           FontSize="14"
-                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                           LineBreakMode="WordWrap"
-                           MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="Inclui modelos como o Porsche 911 GT3 e o Nissan Skyline R34. Exclusivo para assinantes Mattel."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
 
                                 <HorizontalStackLayout Spacing="12" VerticalOptions="Center">
-                                    <Frame WidthRequest="36" 
-                               HeightRequest="36"
-                               CornerRadius="18"
-                               Padding="0"
-                               IsClippedToBounds="True">
-                                        <Image Source="autor_tecnologia.jpg"/>
-                                    </Frame>
 
                                     <VerticalStackLayout Spacing="2">
-                                        <Label Text="Ana Ribeiro"
-                                   FontSize="13"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="13"
+                                            Text="Mattel"
+                                            TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                        <Label Text="10 Jun, 2023 · 3min"
-                                   FontSize="11"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                        <Label FontSize="11" Text="20 Jun, 2024" TextColor="{DynamicResource SecondaryTextColor}" />
                                     </VerticalStackLayout>
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>
 
-                    <Frame WidthRequest="280"
-               CornerRadius="12"
-               BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-               BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-               HasShadow="True"
-               Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                      Margin="-12,-12,-12,0"
-                      HeightRequest="210">
-                                <Image Source="noticia3.jpg"
-                           HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="opala.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="10">
-                                <Label Text="MERCADO"
-                           TextColor="#D69E2E"
-                           FontSize="14"
-                           FontAttributes="Bold"
-                           CharacterSpacing="1.1"
-                           Margin="0,0,0,-4"/>
+                                <Label
+                                    Margin="0,0,0,-4"
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="REGIONAL"
+                                    TextColor="#E31937" />
 
-                                <Label Text="Montadora anuncia investimentos no Brasil"
-                           FontSize="18"
-                           FontAttributes="Bold"
-                           TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="Coleção Brasil Exclusive 2024 com Volkswagen Fusca"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Nova fábrica será construída no Sudeste com foco em elétricos."
-                           FontSize="14"
-                           TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                           LineBreakMode="WordWrap"
-                           MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="A série Brasil Exclusive 2024 traz um Fusca azul com rodas cromadas e um Chevrolet Opala SS em edição limitada."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
 
                                 <HorizontalStackLayout Spacing="12" VerticalOptions="Center">
-                                    <Frame WidthRequest="36" 
-                               HeightRequest="36"
-                               CornerRadius="18"
-                               Padding="0"
-                               IsClippedToBounds="True">
-                                        <Image Source="autor_economia.jpg"/>
-                                    </Frame>
 
                                     <VerticalStackLayout Spacing="2">
-                                        <Label Text="João Lima"
-                                   FontSize="13"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="13"
+                                            Text="Hot Wheels Brasil"
+                                            TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                        <Label Text="08 Jun, 2023 · 4min"
-                                   FontSize="11"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"/>
+                                        <Label FontSize="11" Text="12 Mai, 2024" TextColor="{DynamicResource SecondaryTextColor}" />
                                     </VerticalStackLayout>
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
@@ -192,120 +172,121 @@
                 </HorizontalStackLayout>
             </ScrollView>
 
-            <Label Text="Últimos Lançamentos"
-               FontSize="24"
-               FontAttributes="Bold"
-               TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"
-               HorizontalOptions="Center"
-               Margin="0,20,0,0"/>
+            <Label
+                Margin="0,20,0,0"
+                FontAttributes="Bold"
+                FontSize="24"
+                HorizontalOptions="Center"
+                Text="Lançamentos do Ano"
+                TextColor="{DynamicResource PrimaryTextColor}" />
 
-            <ScrollView Orientation="Horizontal" HorizontalOptions="Center">
-                <HorizontalStackLayout Spacing="20" Padding="10,0">
+            <ScrollView HorizontalOptions="Center" Orientation="Horizontal">
+                <HorizontalStackLayout Padding="10,0" Spacing="20">
 
-                    <Frame WidthRequest="280"
-                       CornerRadius="12"
-                       BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-                       BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-                       HasShadow="True"
-                       Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                              Margin="-12,-12,-12,0"
-                              HeightRequest="210">
-                                <Image Source="lancamento_carro.jpg"
-                                   HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="mustang.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="14">
-                                <Label Text="LANÇAMENTO"
-                                   TextColor="#3182CE"
-                                   FontSize="14"
-                                   FontAttributes="Bold"
-                                   CharacterSpacing="1.1"/>
+                                <Label
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="LANÇAMENTO"
+                                    TextColor="#FFD700" />
 
-                                <Label Text="SUV Premium 2024 já está disponível"
-                                   FontSize="18"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="'71 Mustang Funny Car – Super Treasure Hunt (Lote H)"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Tecnologia de ponta, interior luxuoso e motor híbrido econômico."
-                                   FontSize="14"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                                   LineBreakMode="WordWrap"
-                                   MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="Uma homenagem ao clássico muscle car, apresentando uma pintura Spectraflame vermelha vibrante."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>
 
-                    <Frame WidthRequest="280"
-                       CornerRadius="12"
-                       BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-                       BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-                       HasShadow="True"
-                       Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                              Margin="-12,-12,-12,0"
-                              HeightRequest="210">
-                                <Image Source="lancamento_carro.jpg"
-                                   HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="optimus.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="14">
-                                <Label Text="LANÇAMENTO"
-                                   TextColor="#3182CE"
-                                   FontSize="14"
-                                   FontAttributes="Bold"
-                                   CharacterSpacing="1.1"/>
+                                <Label
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="LANÇAMENTO"
+                                    TextColor="#FFD700" />
 
-                                <Label Text="SUV Premium 2024 já está disponível"
-                                   FontSize="18"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="Optimus Prime – Transformers (Lote F)"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Tecnologia de ponta, interior luxuoso e motor híbrido econômico."
-                                   FontSize="14"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                                   LineBreakMode="WordWrap"
-                                   MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="Inspirado no líder dos Autobots, este modelo captura a essência do Optimus Prime em escala 1:64."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>
 
-                    <Frame WidthRequest="280"
-                       CornerRadius="12"
-                       BorderColor="{AppThemeBinding Light=#EDF2F7, Dark=#1A202C}"
-                       BackgroundColor="{AppThemeBinding Light=White, Dark=#171923}"
-                       HasShadow="True"
-                       Padding="0">
+                    <Frame
+                        Padding="0"
+                        BackgroundColor="{DynamicResource FrameColor}"
+                        CornerRadius="12"
+                        HasShadow="True"
+                        WidthRequest="280">
 
                         <Grid RowDefinitions="210, *">
-                            <Grid BackgroundColor="#EDF2F7" 
-                              Margin="-12,-12,-12,0"
-                              HeightRequest="210">
-                                <Image Source="lancamento_carro.jpg"
-                                   HeightRequest="210"/>
+                            <Grid Margin="-12,-12,-12,0" BackgroundColor="#EDF2F7" HeightRequest="210">
+                                <Image HeightRequest="210" Source="audi.png" />
                             </Grid>
 
                             <VerticalStackLayout Grid.Row="1" Padding="16" Spacing="12">
-                                <Label Text="LANÇAMENTO"
-                                   TextColor="#3182CE"
-                                   FontSize="14"
-                                   FontAttributes="Bold"
-                                   CharacterSpacing="1.1"/>
+                                <Label
+                                    CharacterSpacing="1.1"
+                                    FontAttributes="Bold"
+                                    FontSize="14"
+                                    Text="LANÇAMENTO"
+                                    TextColor="#FFD700" />
 
-                                <Label Text="SUV Premium 2024 já está disponível"
-                                   FontSize="18"
-                                   FontAttributes="Bold"
-                                   TextColor="{AppThemeBinding Light=#2D3748, Dark=White}"/>
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="18"
+                                    Text="'87 Audi Quattro – Super Treasure Hunt (Lote A)"
+                                    TextColor="{DynamicResource PrimaryTextColor}" />
 
-                                <Label Text="Tecnologia de ponta, interior luxuoso e motor híbrido econômico."
-                                   FontSize="14"
-                                   TextColor="{AppThemeBinding Light=#718096, Dark=#A0AEC0}"
-                                   LineBreakMode="WordWrap"
-                                   MaxLines="3"/>
+                                <Label
+                                    FontSize="14"
+                                    LineBreakMode="WordWrap"
+                                    MaxLines="3"
+                                    Text="Icônico Audi Quattro de 1987, famoso por seu desempenho nas pistas de rally."
+                                    TextColor="{DynamicResource SecondaryTextColor}" />
                             </VerticalStackLayout>
                         </Grid>
                     </Frame>

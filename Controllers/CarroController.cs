@@ -45,11 +45,24 @@ namespace AppWheelHunter.Controllers
 
         public List<Carro> Filtrar(string modelo = null, bool? obtido = null, bool? desejado = null)
         {
-            return conexao.Table<Carro>()
-            .Where(c => string.IsNullOrEmpty(modelo) || c.Modelo.Contains(modelo))
-            .Where(c => !obtido.HasValue || c.Obtido == obtido.Value)
-            .Where(c => !desejado.HasValue || c.Desejado == desejado.Value)
-            .ToList();
+            var query = conexao.Table<Carro>();
+
+            if (!string.IsNullOrEmpty(modelo))
+            {
+                query = query.Where(c => c.Modelo.ToLower().Contains(modelo.ToLower()));
+            }
+
+            if (obtido.HasValue)
+            {
+                query = query.Where(c => c.Obtido == obtido.Value);
+            }
+
+            if (desejado.HasValue)
+            {
+                query = query.Where(c => c.Desejado == desejado.Value);
+            }
+
+            return query.ToList();
         }
     }
 }

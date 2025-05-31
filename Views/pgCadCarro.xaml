@@ -4,7 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="pgCadCarro"
-    BackgroundColor="#F5F5F5">
+    BackgroundColor="{DynamicResource BackgroundColor}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
@@ -28,7 +28,7 @@
                     BackgroundColor="#80A92727"
                     CornerRadius="75"
                     HeightRequest="150"
-                    IsVisible="{Binding Source={x:Reference imgPerfil}, Path=Source, Converter={StaticResource NullToVisibilityConverter}}"
+                    IsVisible="{Binding Source={x:Reference imgCarro}, Path=Source}"
                     WidthRequest="150">
                     <VerticalStackLayout HorizontalOptions="Center" Spacing="10" VerticalOptions="Center">
 
@@ -57,15 +57,15 @@
             </Grid>
 
             <VerticalStackLayout Padding="0,10" Spacing="12">
-                <Label FontSize="16" Text="Modelo:" TextColor="#000000" />
+                <Label FontSize="16" Text="Modelo:" TextColor="{DynamicResource PrimaryTextColor}" />
                 <Entry x:Name="txtModelo" ClearButtonVisibility="WhileEditing" Style="{StaticResource CamposText}" />
 
-                <Label FontSize="16" Text="Lote:" TextColor="#000000" />
+                <Label FontSize="16" Text="Lote:" TextColor="{DynamicResource PrimaryTextColor}" />
                 <Picker
                     x:Name="pckrLote"
                     BackgroundColor="#DEE7E7"
-                    HeightRequest="50"
-                    TextColor="Black">
+                    HeightRequest="40"
+                    TextColor="{DynamicResource PrimaryTextColor}">
                     <Picker.Items>
                         <x:String>A</x:String>
                         <x:String>B</x:String>
@@ -85,7 +85,7 @@
                     </Picker.Items>
                 </Picker>
 
-                <Label FontSize="16" Text="Ano:" TextColor="#000000" />
+                <Label FontSize="16" Text="Ano:" TextColor="{DynamicResource PrimaryTextColor}" />
                 <Entry
                     x:Name="txtAno"
                     ClearButtonVisibility="WhileEditing"
@@ -93,17 +93,19 @@
                     MaxLength="4"
                     Style="{StaticResource CamposText}" />
 
-                <Label FontSize="16" Text="Status:" TextColor="#000000"/>
-                <RadioButton x:Name="radObtido" 
-                     TextColor="#000000"
-                     Content="Obtido" 
-                     GroupName="StatusCarro" 
-                     IsChecked="False" />
-                <RadioButton x:Name="radDesejado" 
-                     TextColor="#000000"
-                     Content="Desejado" 
-                     GroupName="StatusCarro" 
-                     IsChecked="False" />
+                <Label FontSize="16" Text="Status:" TextColor="{DynamicResource PrimaryTextColor}" />
+                <RadioButton
+                    x:Name="radObtido"
+                    Content="Obtido"
+                    GroupName="StatusCarro"
+                    IsChecked="False"
+                    TextColor="{DynamicResource PrimaryTextColor}" />
+                <RadioButton
+                    x:Name="radDesejado"
+                    Content="Desejado"
+                    GroupName="StatusCarro"
+                    IsChecked="False"
+                    TextColor="{DynamicResource PrimaryTextColor}" />
                 <Button
                     Margin="0,20"
                     Clicked="btnSalvar_Clicked"

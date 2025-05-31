@@ -11,6 +11,7 @@ public partial class pgCadCarro : ContentPage
     public pgCadCarro()
 	{
 		InitializeComponent();
+        var app = (App)Application.Current;
         carroController = new CarroController();
         AtualizarVisibilidadeBotoes();
 
@@ -80,6 +81,7 @@ public partial class pgCadCarro : ContentPage
         if (carroController.Insert(carro))
         {
             await DisplayAlert("Sucesso", "Carro salvo!", "OK");
+            
             LimparCampos();
         }
         else
