@@ -51,7 +51,6 @@
                 <Setter Property="Shell.ItemTemplate">
                     <Setter.Value>
                         <DataTemplate>
-                            
                             <Grid Padding="10" ColumnDefinitions="40,*">
                                 <Image
                                     HeightRequest="24"
@@ -63,7 +62,6 @@
                         </DataTemplate>
                     </Setter.Value>
                 </Setter>
-                
             </Style>
 
             <!--  Tema Claro  -->

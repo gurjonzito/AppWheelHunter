@@ -48,6 +48,17 @@
 
                 <Button Clicked="btnPrincipal_Clicked" ImageSource="feed_icon.png" Style="{StaticResource PrimaryButton}" />
             </HorizontalStackLayout>
+
+            <HorizontalStackLayout Padding="10" HorizontalOptions="End" VerticalOptions="Start">
+                <Label Text="Tema " TextColor="{DynamicResource PrimaryTextColor}" VerticalOptions="Center" />
+                <Switch
+                    x:Name="ThemeSwitch"
+                    x:FieldModifier="public"
+                    IsToggled="{Binding IsDarkMode}"
+                    OnColor="#E31937"
+                    ThumbColor="#A4A4A4"
+                    Toggled="OnThemeSwitchToggled" />
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 

@@ -31,10 +31,23 @@
     </FlyoutItem>
 
     <Shell.FlyoutFooter>
-        <StackLayout>
-        <Label FontSize="12" Text="Versão: 1.0.0" TextColor="{DynamicResource PrimaryTextColor}" />
-        <Label FontSize="12" Text="PROJETO POR: Alan M. Gurjon e Eduardo M. Panzeri" TextColor="{DynamicResource PrimaryTextColor}" />
-        <Label FontSize="12" Text="Copyright - WheelHunter" TextColor="{DynamicResource PrimaryTextColor}" />
-        </StackLayout>
+        <Grid Padding="10" ColumnDefinitions="*,Auto">
+            <StackLayout Margin="10" HorizontalOptions="Center">
+                <HorizontalStackLayout Padding="10" HorizontalOptions="End" VerticalOptions="Start">
+                    <Label Text="Tema " TextColor="{DynamicResource PrimaryTextColor}" VerticalOptions="Center" />
+                    <Switch
+                        x:Name="ThemeSwitch"
+                        x:FieldModifier="public"
+                        IsToggled="{Binding IsDarkMode}"
+                        OnColor="#E31937"
+                        ThumbColor="#A4A4A4"
+                        Toggled="OnThemeSwitchToggled" />
+                </HorizontalStackLayout>
+                <Label FontSize="12" Text="Versão: 1.0.0" TextColor="{DynamicResource PrimaryTextColor}" />
+                <Label FontSize="12" Text="PROJETO POR: Alan M. Gurjon e Eduardo M. Panzeri" TextColor="{DynamicResource PrimaryTextColor}" />
+                <Label FontSize="12" Text="Copyright - WheelHunter" TextColor="{DynamicResource PrimaryTextColor}" />
+            </StackLayout>
+        </Grid>
     </Shell.FlyoutFooter>
+
 </Shell>
