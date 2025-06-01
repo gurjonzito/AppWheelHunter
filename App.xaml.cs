@@ -31,17 +31,6 @@ namespace AppWheelHunter
                 (ResourceDictionary)Resources["LightTheme"];
             Resources.MergedDictionaries.Add(theme);
 
-            if (MainPage is NavigationPage navPage &&
-            navPage.CurrentPage is MainPage mainPage)
-
-            {
-                mainPage.ThemeSwitch.IsToggled = isDark;
-            }
-
-            if (Current?.MainPage is AppShell shell)
-            {
-                shell.ThemeSwitch.IsToggled = isDark;
-            }
         }
 
         private void RecarregarPaginas()
