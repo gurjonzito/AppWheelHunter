@@ -71,11 +71,14 @@
                 <Label FontSize="16" Text="Lote:" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
                 <Picker
                     x:Name="pckrLote"
+                    Title="Selecione um lote (ex: A, B, C...)"
                     BackgroundColor="{AppThemeBinding Light=#FFFFFF,
                                                       Dark=#1E1E1E}"
-                    HeightRequest="40"
+                    HeightRequest="65"
                     TextColor="{AppThemeBinding Light=#000000,
-                                                Dark=#FFFFFF}">
+                                                Dark=#FFFFFF}"
+                    TitleColor="{AppThemeBinding Light=#000000,
+                                                 Dark=#FFFFFF}">
                     <Picker.Items>
                         <x:String>A</x:String>
                         <x:String>B</x:String>

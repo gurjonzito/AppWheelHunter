@@ -11,10 +11,24 @@ public partial class pgListaCarros : ContentPage
 		InitializeComponent();
         var app = (App)Application.Current;
         carroController = new CarroController();
+        carroController.DadosAlterados += AtualizarListView;
         picker.SelectedIndex = 0;
         AtualizarListView();
         FiltrarListView();
     }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        AtualizarListView();
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+        carroController.DadosAlterados -= AtualizarListView;
+    }
+
     private void FiltrarListView()
     {
         var textoBusca = searchBar.Text;

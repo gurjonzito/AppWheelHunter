@@ -1,6 +1,4 @@
-﻿using Microsoft.Maui.ApplicationModel.DataTransfer;
-
-namespace AppWheelHunter
+﻿namespace AppWheelHunter
 {
     public partial class AppShell : Shell
     {

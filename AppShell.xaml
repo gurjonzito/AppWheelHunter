@@ -52,7 +52,7 @@
         <StackLayout Margin="10" HorizontalOptions="Center">
             <Label FontSize="12" Text="Versão: 1.0.0" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
             <Label FontSize="12" Text="PROJETO POR: Alan M. Gurjon e Eduardo M. Panzeri" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
-            <Label FontSize="12" Text="© 2025 - WheelHunter" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
+            <Label FontSize="12" Text="Copyright © 2025 - WheelHunter" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
         </StackLayout>
     </Shell.FlyoutFooter>
 

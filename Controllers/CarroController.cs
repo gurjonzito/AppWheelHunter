@@ -9,6 +9,8 @@ namespace AppWheelHunter.Controllers
         private DatabaseService databaseService;
         private SQLiteConnection conexao;
 
+        public event Action DadosAlterados;
+
         public CarroController()
         {
             databaseService = new DatabaseService();
@@ -20,17 +22,23 @@ namespace AppWheelHunter.Controllers
 
         public bool Insert(Carro value)
         {
-            return conexao.Insert(value) > 0;
+            var result = conexao.Insert(value) > 0;
+            if (result) DadosAlterados?.Invoke();
+            return result;
         }
 
         public bool Update(Carro value)
         {
-            return conexao.Update(value) > 0;
+            var result = conexao.Update(value) > 0;
+            if (result) DadosAlterados?.Invoke();
+            return result;
         }
 
         public bool Delete(Carro value)
         {
-            return conexao.Delete(value) > 0;
+            var result = conexao.Delete(value) > 0;
+            if (result) DadosAlterados?.Invoke();
+            return result;
         }
 
         public List<Carro> GetAll()

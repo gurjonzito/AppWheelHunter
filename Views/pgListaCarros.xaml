@@ -54,7 +54,7 @@
             </Grid>
         </Frame>
 
-        <!--  Lista de Carros - Estilo igual aos cards  -->
+        <!--  Lista de Carros  -->
         <ListView
             x:Name="lsvLista"
             Grid.Row="1"

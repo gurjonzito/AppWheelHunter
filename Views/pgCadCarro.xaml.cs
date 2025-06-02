@@ -80,9 +80,9 @@ public partial class pgCadCarro : ContentPage
 
         if (carroController.Insert(carro))
         {
-            await DisplayAlert("Sucesso", "Carro salvo!", "OK");
-            
+            await DisplayAlert("Sucesso", "Carrinho salvo!", "OK");
             LimparCampos();
+            MessagingCenter.Send(this, "CarrosAtualizados");
         }
         else
         {
