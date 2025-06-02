@@ -8,15 +8,7 @@ namespace AppWheelHunter.Views
         public MainPage()
         {
             InitializeComponent();
-            bool isDarkMode = Preferences.Get("DarkMode", false);
-            ThemeSwitch.IsToggled = isDarkMode;
-
-            ((App)Application.Current).ThemeChanged += OnThemeChanged;
-        }
-
-        private void OnThemeChanged(bool isDark)
-        {
-            ThemeSwitch.IsToggled = isDark;
+            var app = (App)Application.Current;
         }
 
         private async void btnCadastrar_Clicked(object sender, EventArgs e)
@@ -33,18 +25,6 @@ namespace AppWheelHunter.Views
         private async void btnPrincipal_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new pgPrincipal());
-        }
-
-        private void OnThemeSwitchToggled(object sender, ToggledEventArgs e)
-        {
-            var app = (App)Application.Current;
-            app.AlterarTema(e.Value);
-        }
-
-        protected override void OnDisappearing()
-        {
-            base.OnDisappearing();
-            ((App)Application.Current).ThemeChanged -= OnThemeChanged;
         }
     }
 

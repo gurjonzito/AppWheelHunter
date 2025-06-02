@@ -4,7 +4,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="pgCadCarro"
-    BackgroundColor="{DynamicResource BackgroundColor}">
+    BackgroundColor="{AppThemeBinding Light=#F5F5F5,
+                                      Dark=#121212}">
 
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
@@ -57,15 +58,24 @@
             </Grid>
 
             <VerticalStackLayout Padding="0,10" Spacing="12">
-                <Label FontSize="16" Text="Modelo:" TextColor="{DynamicResource PrimaryTextColor}" />
-                <Entry x:Name="txtModelo" ClearButtonVisibility="WhileEditing" Style="{StaticResource CamposText}" />
+                <Label FontSize="16" Text="Modelo:" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
+                <Entry
+                    x:Name="txtModelo"
+                    BackgroundColor="{AppThemeBinding Light=#FFFFFF,
+                                                      Dark=#1E1E1E}"
+                    ClearButtonVisibility="WhileEditing"
+                    HeightRequest="40"
+                    Placeholder="Ex: BMW 2002"
+                    PlaceholderColor="#A4A4A4" />
 
-                <Label FontSize="16" Text="Lote:" TextColor="{DynamicResource PrimaryTextColor}" />
+                <Label FontSize="16" Text="Lote:" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
                 <Picker
                     x:Name="pckrLote"
-                    BackgroundColor="#DEE7E7"
+                    BackgroundColor="{AppThemeBinding Light=#FFFFFF,
+                                                      Dark=#1E1E1E}"
                     HeightRequest="40"
-                    TextColor="{DynamicResource PrimaryTextColor}">
+                    TextColor="{AppThemeBinding Light=#000000,
+                                                Dark=#FFFFFF}">
                     <Picker.Items>
                         <x:String>A</x:String>
                         <x:String>B</x:String>
@@ -85,32 +95,40 @@
                     </Picker.Items>
                 </Picker>
 
-                <Label FontSize="16" Text="Ano:" TextColor="{DynamicResource PrimaryTextColor}" />
+                <Label FontSize="16" Text="Ano:" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
                 <Entry
                     x:Name="txtAno"
+                    BackgroundColor="{AppThemeBinding Light=#FFFFFF,
+                                                      Dark=#1E1E1E}"
                     ClearButtonVisibility="WhileEditing"
+                    HeightRequest="40"
                     Keyboard="Numeric"
                     MaxLength="4"
-                    Style="{StaticResource CamposText}" />
+                    Placeholder="Ex: 2025"
+                    PlaceholderColor="#A4A4A4" />
 
-                <Label FontSize="16" Text="Status:" TextColor="{DynamicResource PrimaryTextColor}" />
+                <Label FontSize="16" Text="Status:" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
                 <RadioButton
                     x:Name="radObtido"
                     Content="Obtido"
                     GroupName="StatusCarro"
                     IsChecked="False"
-                    TextColor="{DynamicResource PrimaryTextColor}" />
+                    TextColor="{AppThemeBinding Light=#000000,
+                                                Dark=#FFFFFF}" />
                 <RadioButton
                     x:Name="radDesejado"
                     Content="Desejado"
                     GroupName="StatusCarro"
                     IsChecked="False"
-                    TextColor="{DynamicResource PrimaryTextColor}" />
+                    TextColor="{AppThemeBinding Light=#000000,
+                                                Dark=#FFFFFF}" />
                 <Button
                     Margin="0,20"
                     Clicked="btnSalvar_Clicked"
                     Style="{StaticResource PrimaryButton}"
-                    Text="Salvar" />
+                    Text="Salvar"
+                    TextColor="{AppThemeBinding Light=#FFFFFF,
+                                                Dark=#000000}" />
             </VerticalStackLayout>
         </VerticalStackLayout>
     </ScrollView>

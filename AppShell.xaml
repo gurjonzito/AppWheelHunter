@@ -6,10 +6,29 @@
     xmlns:Views="clr-namespace:AppWheelHunter.Views"
     xmlns:local="clr-namespace:AppWheelHunter"
     Title="AppWheelHunter"
-    Shell.FlyoutBackground="{DynamicResource BackgroundColor}"
+    Shell.FlyoutBackground="{AppThemeBinding Light=#F5F5F5,
+                                             Dark=#121212}"
     Shell.FlyoutBehavior="Flyout"
     Shell.NavBarIsVisible="False"
     Shell.TabBarIsVisible="False">
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid Padding="10" ColumnDefinitions="40,*">
+                <Image
+                    HeightRequest="24"
+                    Source="{Binding Icon}"
+                    VerticalOptions="Center"
+                    WidthRequest="24" />
+                <Label
+                    Grid.Column="1"
+                    FontSize="14"
+                    Text="{Binding Title}"
+                    TextColor="{AppThemeBinding Light=#000000,
+                                                Dark=#FFFFFF}" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
 
     <Shell.FlyoutHeader>
         <VerticalStackLayout>
@@ -19,11 +38,10 @@
         </VerticalStackLayout>
     </Shell.FlyoutHeader>
 
-    <FlyoutItem Style="{DynamicResource MenuFlyoutItemStyle}">
-        <ShellContent Title="Home" ContentTemplate="{DataTemplate Views:MainPage}" Icon="home_icon.png" />
-    </FlyoutItem>
+    <ShellContent Title="Home" ContentTemplate="{DataTemplate Views:MainPage}" Icon="home_icon.png" />
 
-    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Style="{DynamicResource MenuFlyoutItemStyle}">
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Feed" ContentTemplate="{DataTemplate Views:pgPrincipal}" Icon="feed_icon.png" />
 
         <ShellContent Title="Cadastrar" ContentTemplate="{DataTemplate Views:pgCadCarro}" Icon="carro_icon.png" />
 
@@ -31,23 +49,11 @@
     </FlyoutItem>
 
     <Shell.FlyoutFooter>
-        <Grid Padding="10" ColumnDefinitions="*,Auto">
-            <StackLayout Margin="10" HorizontalOptions="Center">
-                <HorizontalStackLayout Padding="10" HorizontalOptions="End" VerticalOptions="Start">
-                    <Label Text="Tema " TextColor="{DynamicResource PrimaryTextColor}" VerticalOptions="Center" />
-                    <Switch
-                        x:Name="ThemeSwitch"
-                        x:FieldModifier="public"
-                        IsToggled="{Binding IsDarkMode}"
-                        OnColor="#E31937"
-                        ThumbColor="#A4A4A4"
-                        Toggled="OnThemeSwitchToggled" />
-                </HorizontalStackLayout>
-                <Label FontSize="12" Text="Versão: 1.0.0" TextColor="{DynamicResource PrimaryTextColor}" />
-                <Label FontSize="12" Text="PROJETO POR: Alan M. Gurjon e Eduardo M. Panzeri" TextColor="{DynamicResource PrimaryTextColor}" />
-                <Label FontSize="12" Text="Copyright - WheelHunter" TextColor="{DynamicResource PrimaryTextColor}" />
-            </StackLayout>
-        </Grid>
+        <StackLayout Margin="10" HorizontalOptions="Center">
+            <Label FontSize="12" Text="Versão: 1.0.0" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
+            <Label FontSize="12" Text="PROJETO POR: Alan M. Gurjon e Eduardo M. Panzeri" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
+            <Label FontSize="12" Text="© 2025 - WheelHunter" TextColor="{AppThemeBinding Light=#000000, Dark=#FFFFFF}" />
+        </StackLayout>
     </Shell.FlyoutFooter>
 
 </Shell>
