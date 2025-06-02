@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pgcadcarro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgcadcarro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,30 +19,6 @@
       "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pgcadcarro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgcadcarro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pglistacarros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pglistacarros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pglistacarros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pglistacarros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pgprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgprincipal.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,8 +27,28 @@
       "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgprincipal.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pglistacarros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pglistacarros.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pglistacarros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pglistacarros.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pgcadcarro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgcadcarro.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\pgcadcarro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\pgcadcarro.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,6 +57,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:controllers\\carrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|solutionrelative:models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alan.gurjon\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4E9D2CE-79C0-4E23-92D8-8C389CD3E607}|AppWheelHunter.csproj|c:\\users\\alan.gurjon\\onedrive - linx sa\\documentos\\docs alan\\prog mobile i\\appwheelhunter\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,63 +81,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "pgListaCarros.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\pgListaCarros.xaml.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml.cs",
-              "RelativeToolTip": "Views\\pgListaCarros.xaml.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAUwBYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T01:40:37.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "pgListaCarros.xaml",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml",
-              "RelativeDocumentMoniker": "Views\\pgListaCarros.xaml",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml",
-              "RelativeToolTip": "Views\\pgListaCarros.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-01T23:53:53.815Z",
+              "Title": "pgCadCarro.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\pgCadCarro.xaml.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml.cs",
+              "RelativeToolTip": "Views\\pgCadCarro.xaml.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:55:27.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "pgCadCarro.xaml",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml",
               "RelativeDocumentMoniker": "Views\\pgCadCarro.xaml",
               "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml",
               "RelativeToolTip": "Views\\pgCadCarro.xaml",
-              "ViewState": "AgIAADsAAAAAAAAAAAArwEkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-28T00:29:04.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml",
-              "RelativeToolTip": "Views\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABHAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "pgListaCarros.xaml",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml",
+              "RelativeDocumentMoniker": "Views\\pgListaCarros.xaml",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml",
+              "RelativeToolTip": "Views\\pgListaCarros.xaml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKAAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-01T22:01:58.986Z",
+              "WhenOpened": "2025-06-01T23:53:53.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pgListaCarros.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\pgListaCarros.xaml.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgListaCarros.xaml.cs",
+              "RelativeToolTip": "Views\\pgListaCarros.xaml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAkwA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T01:40:37.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "pgPrincipal.xaml",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml",
+              "RelativeDocumentMoniker": "Views\\pgPrincipal.xaml",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml",
+              "RelativeToolTip": "Views\\pgPrincipal.xaml",
+              "ViewState": "AgIAADgBAAAAAAAAAAAAABoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T00:29:15.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "pgPrincipal.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\pgPrincipal.xaml.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml.cs",
+              "RelativeToolTip": "Views\\pgPrincipal.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:43:11.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -148,58 +177,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml.cs",
-              "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T21:58:45.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-01T22:03:13.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "pgCadCarro.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\pgCadCarro.xaml.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgCadCarro.xaml.cs",
-              "RelativeToolTip": "Views\\pgCadCarro.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T00:55:27.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T22:02:01.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -212,69 +189,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CarroController.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Controllers\\CarroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CarroController.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Controllers\\CarroController.cs",
-              "RelativeToolTip": "Controllers\\CarroController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAEwCgAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T22:03:13.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:07:17.277Z",
+              "WhenOpened": "2025-06-01T21:58:45.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T22:02:01.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "pgPrincipal.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\pgPrincipal.xaml.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml.cs",
-              "RelativeToolTip": "Views\\pgPrincipal.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T00:43:11.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "pgPrincipal.xaml",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml",
-              "RelativeDocumentMoniker": "Views\\pgPrincipal.xaml",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\pgPrincipal.xaml",
-              "RelativeToolTip": "Views\\pgPrincipal.xaml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABoAAABIAAAAAAAAAA==",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-28T00:29:15.859Z",
+              "WhenOpened": "2025-06-01T22:01:58.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "ImageService.cs",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "Services\\ImageService.cs",
               "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Services\\ImageService.cs",
               "RelativeToolTip": "Services\\ImageService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T00:25:33.511Z"
+              "WhenOpened": "2025-05-28T00:25:33.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Carro.cs",
-              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Models\\Carro.cs",
-              "RelativeDocumentMoniker": "Models\\Carro.cs",
-              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Models\\Carro.cs",
-              "RelativeToolTip": "Models\\Carro.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T00:26:23.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
@@ -282,11 +262,51 @@
               "RelativeToolTip": "Services\\DatabaseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T00:24:57.394Z"
+              "WhenOpened": "2025-05-28T00:24:57.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CarroController.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Controllers\\CarroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarroController.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Controllers\\CarroController.cs",
+              "RelativeToolTip": "Controllers\\CarroController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:07:17.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Models\\Carro.cs",
+              "RelativeDocumentMoniker": "Models\\Carro.cs",
+              "ToolTip": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\Models\\Carro.cs",
+              "RelativeToolTip": "Models\\Carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T00:26:23.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\alan.gurjon\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\alan.gurjon\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\9.0.14\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAGECAAAAAAAAAAAqwHYCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-02T13:44:18.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\alan.gurjon\\OneDrive - Linx SA\\Documentos\\Docs Alan\\Prog Mobile I\\AppWheelHunter\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",

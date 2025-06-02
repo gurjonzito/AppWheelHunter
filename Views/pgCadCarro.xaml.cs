@@ -8,13 +8,13 @@ public partial class pgCadCarro : ContentPage
 {
     private CarroController carroController;
     private string sImagemSelecionada;
+
     public pgCadCarro()
 	{
 		InitializeComponent();
         var app = (App)Application.Current;
         carroController = new CarroController();
         AtualizarVisibilidadeBotoes();
-
     }
 
     private void AtualizarVisibilidadeBotoes()

@@ -161,6 +161,7 @@
                                         </Image.GestureRecognizers>
                                     </Image>
 
+                                    <!--  Ícone Excluir  -->
                                     <Image HeightRequest="28" Source="excluir_icon.png" WidthRequest="28">
                                         <Image.GestureRecognizers>
                                             <TapGestureRecognizer CommandParameter="{Binding .}" Tapped="OnExcluidoTapped" />
